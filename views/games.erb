@@ -1,0 +1,16 @@
+<div class="col-lg-12">
+<h3>Games for Trade</h3>
+<p>Among out large collection of Board Games, there are some we no longer spend our time playing.</p>
+Although playing Table-Top Games is our <em>primary</em> leisure time activity, we simply suffer from "too many games, too little time".</p><p> In favor of others we like more or consider a more appropriate challenge, this list represents those we have decided (reluctantly) to <em>pass on</em> to another avid gamer.</p>
+<p>If any of these interest you, click the link and we can negotiate a barter (that, I promise, will be favorable to you!).</p>
+</div>
+
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<ul>
+<% @games.each do |game| %>
+  <li><a href="<%= game[:url] %>" title="<%= game[:name] %>"><%= game[:name] %></a></li>
+<% end %>
+</ul>
+</div>
+<div class="col-md-2"></div>

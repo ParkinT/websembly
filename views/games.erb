@@ -1,16 +1,26 @@
+<style>
+input[type=checkbox]:checked + a.strikethrough{
+  text-decoration: line-through;
+}
+</style>
 <div class="col-lg-12">
 <h3>Games for Trade</h3>
-<p>Among out large collection of Board Games, there are some we no longer spend our time playing.</p>
+<p>Among our large collection of Board Games, there are some we no longer spend our time playing.</p>
 Although playing Table-Top Games is our <em>primary</em> leisure time activity, we simply suffer from "too many games, too little time".</p><p> In favor of others we like more or consider a more appropriate challenge, this list represents those we have decided (reluctantly) to <em>pass on</em> to another avid gamer.</p>
-<p>If any of these interest you, click the link and we can negotiate a barter (that, I promise, will be favorable to you!).</p>
+<p>If any of these interest you, click the checkbox on all you like then click <span id="trade-link">"Let's Barter"</span>.</p>
+<p>We can negotiate a barter (that, I promise, will be favorable to you!).</p>
 </div>
 
 <div class="col-md-2"></div>
 <div class="col-md-8">
+<form id="trade" action="/games" method="POST">
+	<input type="submit" class="btn btn-default" value="Let's Barter"></input>
 <ul>
-<% @games.each do |game| %>
-  <li><a href="<%= game[:url] %>" title="<%= game[:name] %>"><%= game[:name] %></a></li>
+<% @games_list.each do |game| %>
+  <li><div class="checkbox"><input name="<%= game[:name] %>" type="checkbox" <%= "checked=\"checked\"" unless game[:checked].nil? %> /><a class="strikethrough" href="<%= game[:url] %>" title="<%= game[:name] %>"><%= game[:name] %></a></li>
 <% end %>
 </ul>
+</form>
 </div>
 <div class="col-md-2"></div>
+

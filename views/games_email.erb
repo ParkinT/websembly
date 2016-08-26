@@ -1,0 +1,31 @@
+<style>
+#email_body {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 12px;
+  margin-left: 2px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 2px solid rgba(220, 230, 120, 0.6);
+  min-height: 230px;
+}
+</style>
+<div class="row">
+	<div class="col-xl-2"></div>
+	<div class="col-xl-8">
+	<h2>Offer for Trade/Barter/Purchase of Board Games</h2>
+	<p>Copy and paste this list.  Then paste into an <a href="mailto:parkin_thom@hotmail.com?subject=Board%20Game%20Trade-or-Barter" title="Click to generate an Email message">email message</a>.</p>
+	<textarea id="email_body"><%= @email_text %></textarea>
+	</div>
+	<div class="col-xl-2"></div>
+</div>
+<div class="row">
+	<div class="col-xl-8"></div><div class="col-xl-4">
+	<button class="btn" data-clipboard-action="copy" data-clipboard-target="#email_body">
+	    Copy to clipboard
+	</button>
+	</div>
+</div>
+<script>new Clipboard('.btn');</script>
+

@@ -1,0 +1,53 @@
+<style>
+input[type=checkbox]:checked + a.strikethrough{
+  text-decoration: line-through;
+}
+.narrow { width: 13em; }
+</style>
+<script>
+function displayImage(url, displayId) {
+  image = document.getElementById(displayId);
+  if (url=='') {
+    image.innerHTML = '';
+  } else {
+
+  image.innerHTML = "<img src='" + url + "' />";
+  }
+}
+</script>
+<div class="col-lg-12">
+<h3>Magic the Gathering Cards</h3>
+<p>I was an early adopter of MtG and played the card until about the time Fifth Edition was released.  This collection - of the few remaining cards I have - represent cards from <strong>no later than</strong> that set.</p>
+<p>If you are interested in any of these cards, <a href="mailto:parkin_thom@hotmail.com?subject=Mrg%20Cards">contact me</a>.  Many of these I will try to trade-in at <a href="http://coolstuffinc.com" target="_blank">Cool Stuff Games</a>, so reserve any you want immediately.</p>
+</div>
+
+<div class="col-md-1"></div>
+<div class="col-md-6">
+
+<div class="row">
+<div class="col-sm-6">
+<ul>
+<% @cards_list.each_with_index do |card, idx| %>
+<% if idx.even? %>
+  <li><a href="#" title="<%= card[:name] %> - Edition: <%= card[:edition] %>" onMouseOver="displayImage('<%= card[:image_url] %>', 'card-image');" ><%= card[:name] %></a></li>
+<% end #if %>
+<% end %>
+</ul>
+</div>
+<div class="col-sm-6">
+<ul>
+<% @cards_list.each_with_index do |card, idx| %>
+<% if idx.odd? %>
+  <li><a href="#" title="<%= card[:name] %> - Edition: <%= card[:edition] %>" onMouseOver="displayImage('<%= card[:image_url] %>', 'card-image');" ><%= card[:name] %></a></li>
+<% end #if %>
+<% end %>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3"><span id="card-image"></span> </div>
+<div class="col-md-2"><span class="small narrow">Image is just for reference and may not be accurate.</span>
+</div>
+</div>

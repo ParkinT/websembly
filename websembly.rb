@@ -1,10 +1,16 @@
 require 'sinatra'
 require './game.rb'
+require './card.rb'
 
 @@page = { title: "Websembly" }
 
 get '/' do
+  
   erb :index
+end
+
+get '/login/form' do
+  erb "INVALID LOGIN CREDENTIALS"
 end
 
 post '/games' do
@@ -27,6 +33,14 @@ get '/games' do
   @games_list = @games.list
 
   erb :games
+end
+
+get '/mtgcards' do
+  @@page[:title] = "Magic the Gathering Cards"
+  @cards = Card.new
+  @cards_list = @cards.list
+
+  erb :cards
 end
 
 def setup_email(titles_array)

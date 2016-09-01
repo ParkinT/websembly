@@ -45,7 +45,8 @@ private
 	    { name: 'Valley of the Kings - Afterlife', image: 'https://cf.geekdo-images.com/Kd2IH4yvVDulaDyb0m1q5gJsUuc=/fit-in/246x300/pic2456554.jpg',  url: 'http://boardgamegeek.com/boardgame/175223/valley-kings-afterlife', checked: nil},
 	    { name: 'Lost Temple', image: 'https://cf.geekdo-images.com/hYgBeQlfXN7slz2-6Qz1fk5makA=/fit-in/246x300/pic1045956.jpg',  url: 'http://boardgamegeek.com/boardgame/102835/lost-temple', checked: nil },
 	    { name: 'Great Wall of CHINA', image: 'https://cf.geekdo-images.com/images/pic145572_md.jpg',  url: 'http://boardgamegeek.com/boardgame/102835/lost-temple', checked: nil },
-	    { name: 'Beat The Market  (1973)', image: 'https://img1.etsystatic.com/008/0/7004212/il_570xN.379862433_rjsn.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil }
+	    { name: 'Beat The Market  (1973)', image: 'https://img1.etsystatic.com/008/0/7004212/il_570xN.379862433_rjsn.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil },
+	    { name: 'Spazm', image: 'http://cf.geekdo-images.com/images/pic58368_md.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil }
 	  ]
 
 	end

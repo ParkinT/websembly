@@ -54,3 +54,7 @@ function displayImage(url, displayId) {
 	<div class="col-md-2"><span id="game-image"></span></div>
 	<div class="col-md-3"></span></div>
 </div>
+<!-- after initial page load -->
+<script>
+displayImage('<%= @games_list.shuffle.first[:image] %>', 'game-image');
+</script>

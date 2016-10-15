@@ -16,6 +16,7 @@ private
 
 	def games_list
 	  [
+	    { name: 'Deadwood', image: 'https://cf.geekdo-images.com/images/pic973934_md.jpg',  url: 'https://boardgamegeek.com/boardgame/96713/deadwood', checked: nil},
 	    { name: 'Maharaja', image: 'https://cf.geekdo-images.com/GuT9sFvg16DB218PbPF00Dn_An8=/fit-in/246x300/pic44952.jpg',  url: 'http://boardgamegeek.com/boardgame/9440/maharaja-game-palace-building-india', checked: nil},
 	    { name: 'Wit’s End', image: 'https://cf.geekdo-images.com/qIIOVgaJq5dqRW6blPknsYbd1xQ=/fit-in/246x300/pic102374.jpg',  url: 'http://boardgamegeek.com/boardgame/1362/wits-end', checked: nil},
 	    { name: 'Milestones', image: 'https://cf.geekdo-images.com/Rs9_9oW4I8djlA68WlKS_T4roZk=/fit-in/246x300/pic1336176.jpg',  url: 'http://boardgamegeek.com/boardgame/117914/milestones', checked: nil},

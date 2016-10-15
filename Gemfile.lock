@@ -17,6 +17,3 @@ PLATFORMS
 DEPENDENCIES
   sinatra
   slack-notifier
-
-BUNDLED WITH
-   1.10.5

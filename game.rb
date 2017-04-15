@@ -30,22 +30,15 @@ private
 	    { name: 'Risk', image: 'https://cf.geekdo-images.com/UMmKmOKJkOjh3arsMjHNXg55LU0=/fit-in/246x300/pic184168.jpg',  url: 'https://boardgamegeek.com/boardgame/2557/castle-risk', checked: nil},
 	    { name: 'Battle of the Sexes', image: 'https://cf.geekdo-images.com/Qq2DH5X9EKFhVAt9nyXp6vss11E=/fit-in/246x300/pic212920.jpg',  url: 'http://boardgamegeek.com/boardgame/3510/battle-sexes', checked: nil},
 	    { name: 'Martini', image: 'https://cf.geekdo-images.com/cgN727U-4rLE8M0v0cFgQUH65qU=/fit-in/246x300/pic468927.jpg',  url: 'http://boardgamegeek.com/boardgame/39432/martini-game', checked: nil},
-	    { name: 'Rolling America', image: 'https://cf.geekdo-images.com/x38B1AdXLsdDE1O9pou5G4WTSqI=/fit-in/246x300/pic2736928.jpg',  url: 'http://boardgamegeek.com/boardgame/180198/rolling-america', checked: nil},
-	    { name: 'Blink (no rules)', image: 'https://cf.geekdo-images.com/kpcLzQR3-I3BWt9n5WybrbQL434=/fit-in/246x300/pic70439.jpg',  url: 'http://boardgamegeek.com/boardgame/1197/blink', checked: nil},
 	    { name: 'Karnoffel', image: 'https://cf.geekdo-images.com/c0aWzIQZL8GaZkyCwq_z8grVrRM=/fit-in/246x300/pic2010393.jpg',  url: 'https://boardgamegeek.com/boardgame/61849/karnoffel', checked: nil},
 	    { name: 'Cambridge', image: 'https://cf.geekdo-images.com/O1uzjYZP5pgO6U0qTG390ajUDgU=/fit-in/246x300/pic378255.jpg',  url: 'http://boardgamegeek.com/boardgame/25870/cambridge', checked: nil},
 	    { name: 'Perudo', image: 'https://img-3.fruugo.com/product/5/57/9167575_max.jpg',  url: 'https://cf.geekdo-images.com/O1uzjYZP5pgO6U0qTG390ajUDgU=/fit-in/246x300/pic378255.jpg', checked: nil},
-	    { name: 'Pyramids', image: 'https://cf.geekdo-images.com/_76sVSKJ29R8MvjEDTNwY8qPPRM=/fit-in/246x300/pic405338.jpg',  url: 'http://boardgamegeek.com/boardgame/3946/pyramid', checked: nil},
 	    { name: 'Africana', image: 'https://cf.geekdo-images.com/9bhactzR3eQGSxoWLsiEvWZPr9Q=/fit-in/246x300/pic1203186.jpg',  url: 'http://boardgamegeek.com/boardgame/118000/africana', checked: nil},
-	    { name: 'Council of Verona', image: 'https://cf.geekdo-images.com/f75yKFfIKVyJrSC3CIhBq2acCLk=/fit-in/246x300/pic1727393.jpg',  url: 'http://boardgamegeek.com/boardgame/140863/council-verona', checked: nil},
 	    { name: "A Dog's Life", image: 'https://cf.geekdo-images.com/6V3b_OMjvC0fWMZLijOSEtnYg58=/fit-in/246x300/pic193532.jpg',  url: 'http://boardgamegeek.com/boardgame/2940/dogs-life', checked: nil},
 	    { name: 'Penny Press (played only twice)', image: 'https://cf.geekdo-images.com/Gn_6W6JWkhta_aQUZtRE2EaN_q4=/fit-in/246x300/pic2047695.jpg',  url: 'http://boardgamegeek.com/boardgame/148205/penny-press', checked: nil},
-	    { name: 'Council of Verona: Poison Expansion', image: 'https://cf.geekdo-images.com/mhUijeoaZ_pQSfXkQSFcrvHk0qg=/fit-in/246x300/pic1776648.jpg',  url: 'http://boardgamegeek.com/boardgameexpansion/147827/council-verona-poison-expansion', checked: nil},
-	    { name: 'Valley of the Kings - Afterlife', image: 'https://cf.geekdo-images.com/Kd2IH4yvVDulaDyb0m1q5gJsUuc=/fit-in/246x300/pic2456554.jpg',  url: 'http://boardgamegeek.com/boardgame/175223/valley-kings-afterlife', checked: nil},
 	    { name: 'Lost Temple', image: 'https://cf.geekdo-images.com/hYgBeQlfXN7slz2-6Qz1fk5makA=/fit-in/246x300/pic1045956.jpg',  url: 'http://boardgamegeek.com/boardgame/102835/lost-temple', checked: nil },
 	    { name: 'Beat The Market  (1973)', image: 'https://img1.etsystatic.com/008/0/7004212/il_570xN.379862433_rjsn.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil },
 	    { name: 'Mexica', image: 'https://cf.geekdo-images.com/images/pic105562_md.jpg',  url: 'https://boardgamegeek.com/boardgame/2955/mexica', checked: nil },
-	    { name: 'Spazm', image: 'http://cf.geekdo-images.com/images/pic58368_md.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil }
 	  ]
 
 	end

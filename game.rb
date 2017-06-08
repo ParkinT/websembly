@@ -38,6 +38,11 @@ private
 	    { name: 'Penny Press (played only twice)', image: 'https://cf.geekdo-images.com/Gn_6W6JWkhta_aQUZtRE2EaN_q4=/fit-in/246x300/pic2047695.jpg',  url: 'http://boardgamegeek.com/boardgame/148205/penny-press', checked: nil},
 	    { name: 'Lost Temple', image: 'https://cf.geekdo-images.com/hYgBeQlfXN7slz2-6Qz1fk5makA=/fit-in/246x300/pic1045956.jpg',  url: 'http://boardgamegeek.com/boardgame/102835/lost-temple', checked: nil },
 	    { name: 'Beat The Market  (1973)', image: 'https://img1.etsystatic.com/008/0/7004212/il_570xN.379862433_rjsn.jpg',  url: 'https://boardgamegeek.com/boardgame/36942/beat-market', checked: nil },
+	    { name: 'Sharp Shooters', image: 'https://cf.geekdo-images.com/images/pic471474_md.jpg',  url: 'https://boardgamegeek.com/boardgame/1459/sharp-shooters', checked: nil },
+	    { name: 'Scrabble', image: 'https://cf.geekdo-images.com/images/pic404651_md.jpg',  url: 'https://boardgamegeek.com/boardgame/320/scrabble', checked: nil },
+	    { name: 'Colossal Arena', image: 'https://cf.geekdo-images.com/images/pic1680709_md.jpg',  url: 'https://boardgamegeek.com/boardgame/105/colossal-arena', checked: nil },
+	    { name: 'Race For The Galaxy', image: 'https://cf.geekdo-images.com/images/pic236327.jpg',  url: 'https://boardgamegeek.com/boardgame/28143/race-galaxy', checked: nil },
+	    { name: 'Yahtzee', image: 'https://images-na.ssl-images-amazon.com/images/I/519We-x5AbL.jpg',  url: 'https://boardgamegeek.com/boardgame/2243/yahtzee', checked: nil },
 	    { name: 'Mexica', image: 'https://cf.geekdo-images.com/images/pic105562_md.jpg',  url: 'https://boardgamegeek.com/boardgame/2955/mexica', checked: nil },
 	  ]
 
